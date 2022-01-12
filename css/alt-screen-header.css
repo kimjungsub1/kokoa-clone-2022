@@ -1,0 +1,26 @@
+.alt-header {
+  padding: 40px 0px 15px 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alt-header__title {
+  font-size: x-large;
+  font-weight: 900;
+  padding-left: 70px;
+}
+
+.alt-header__column {
+  padding: 0px 20px;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 30px;
+}
+
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+}
